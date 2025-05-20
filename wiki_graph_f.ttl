@@ -1,0 +1,62 @@
+@prefix ns1: <http://example.org/> .
+
+ns1:0 ns1:wikilinksTo ns1:0,
+        ns1:1,
+        ns1:2,
+        ns1:3,
+        ns1:4,
+        ns1:5,
+        ns1:6,
+        ns1:7,
+        ns1:8,
+        ns1:9 ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:1 ns1:wikilinksTo ns1:1,
+        ns1:2,
+        ns1:4,
+        ns1:5,
+        ns1:6,
+        ns1:7,
+        ns1:8 ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:3 ns1:wikilinksTo ns1:3,
+        ns1:4 ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:2 ns1:wikilinksTo ns1:2,
+        ns1:4,
+        ns1:5,
+        ns1:6,
+        ns1:7,
+        ns1:8 ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:9 ns1:wikilinksTo ns1:9 ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:4 ns1:wikilinksTo ns1:4,
+        ns1:5,
+        ns1:6,
+        ns1:7,
+        ns1:8,
+        ns1:9 ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:5 ns1:wikilinksTo ns1:5,
+        ns1:6,
+        ns1:7,
+        ns1:8 ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:6 ns1:wikilinksTo ns1:6,
+        ns1:7 ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:8 ns1:wikilinksTo ns1:8 ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:7 ns1:wikilinksTo ns1:7 ;
+    ns1:wikitype ns1:wikiArticle .
+

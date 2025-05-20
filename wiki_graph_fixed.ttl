@@ -1,0 +1,52 @@
+@prefix ns1: <http://example.org/> .
+
+ns1:Artificial_intelligence ns1:wikilinksTo ns1:Computer_vision,
+        ns1:Deep_learning,
+        ns1:Expert_system,
+        ns1:Machine_learning,
+        ns1:Natural_language_processing,
+        ns1:Neural_network,
+        ns1:Reinforcement_learning,
+        ns1:Supervised_learning,
+        ns1:Turing_test ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:Computer_vision ns1:wikilinksTo ns1:Deep_learning,
+        ns1:Machine_learning,
+        ns1:Natural_language_processing,
+        ns1:Reinforcement_learning,
+        ns1:Supervised_learning,
+        ns1:Turing_test ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:Expert_system ns1:wikilinksTo ns1:Machine_learning ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:Deep_learning ns1:wikilinksTo ns1:Machine_learning,
+        ns1:Natural_language_processing,
+        ns1:Reinforcement_learning,
+        ns1:Supervised_learning,
+        ns1:Turing_test ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:Neural_network ns1:wikitype ns1:wikiArticle .
+
+ns1:Machine_learning ns1:wikilinksTo ns1:Natural_language_processing,
+        ns1:Neural_network,
+        ns1:Reinforcement_learning,
+        ns1:Supervised_learning,
+        ns1:Turing_test ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:Natural_language_processing ns1:wikilinksTo ns1:Reinforcement_learning,
+        ns1:Supervised_learning,
+        ns1:Turing_test ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:Reinforcement_learning ns1:wikilinksTo ns1:Supervised_learning ;
+    ns1:wikitype ns1:wikiArticle .
+
+ns1:Turing_test ns1:wikitype ns1:wikiArticle .
+
+ns1:Supervised_learning ns1:wikitype ns1:wikiArticle .
+

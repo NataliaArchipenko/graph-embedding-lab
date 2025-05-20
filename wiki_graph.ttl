@@ -1,0 +1,5 @@
+@prefix ns1: <http://example.org/> .
+
+ns1:wiki ns1:wikilinksTo ns1:wiki ;
+    ns1:wikitype ns1:wikiArticle .
+
