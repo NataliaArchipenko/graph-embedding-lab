@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+networkx
+scikit-learn
+karateclub
+wikipedia-api
+rdflib
+jupyter
