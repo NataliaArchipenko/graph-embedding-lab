@@ -85,7 +85,6 @@ pip install -r requirements.txt
   - DeepWalk / Node2Vec Embeddings
   - 2D & 3D Visualisierungen
   - Ähnlichkeitsanalyse
-  - Fraud Detection
   - RDF-Export
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
