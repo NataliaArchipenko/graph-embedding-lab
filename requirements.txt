@@ -3,8 +3,15 @@ pandas
 matplotlib
 seaborn
 networkx
-scikit-learn
-karateclub
 wikipedia-api
 rdflib
+karateclub
+scikit-learn
+gensim
+node2vec
+text-unidecode
+tqdm
+joblib
+keras
 jupyter
+tensorflow
