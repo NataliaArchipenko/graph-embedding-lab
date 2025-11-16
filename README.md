@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="banner.png" alt="Graph Embedding Lab Banner" width="100%">
+</p>
 # Graph Embedding & Network Analysis
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange?logo=jupyter)
