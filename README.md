@@ -50,7 +50,7 @@ GraphEmbedding:
      - datei_create.py
      - test.py
      - test_stream.py
-     - 
+  
 ## 1. Wikipedia Knowledge Graph
 **Notebook:** notebooks/01_build_wikipedia_graph.ipynb
 Funktionen:
@@ -73,8 +73,6 @@ Features:
 - Cosine Similarity Berechnung  
 - Top-k ähnliche Wikipedia-Artikel  
 - 3D-Plot der Embeddings 
-
-
 
 ## 4. RDF-Export
 Das Projekt ermöglicht die Konvertierung der Graphdaten in das **RDF/Turtle-Format**.
@@ -105,6 +103,7 @@ pip install -r requirements.txt
   - Ähnlichkeitsanalyse
   - 2D & 3D Visualisierungen
   - RDF-Export
+    
 ## Lizenz
 
 Dieses Projekt steht unter der MIT-Lizenz.
