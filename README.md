@@ -24,32 +24,6 @@ Das Projekt umfasst:
 - Zusätzliche Beispielskripte für Graphgenerierung  
 
 Es handelt sich **ausschließlich um Trainings- und Experimentierdaten**, keine realen Finanz- oder sensiblen Daten.
-
-**Projektstruktur:**
-GraphEmbedding:
-- README.md
-- LICENSE
-- data:
-     - edges.csv
-     - embedding.csv
-     - graph_edges.csv
-     - FullData.csv
-     - FullData_1.csv
-     - wiki_graph.ttl
-     - wiki_graph_f.ttl
-     - wiki_graph_fixed.ttl
-- notebooks
-     - 01_build_wikipedia_graph.ipynb
-     - 02_node2vec_deepwalk_embeddings.ipynb
-     - 03_similarity_analysis.ipynb
-     - graph_em_tutor.ipynb
-- model
-     - trained_model.pkl
-     - model
--scripts
-     - datei_create.py
-     - test.py
-     - test_stream.py
   
 ## 1. Wikipedia Knowledge Graph
 **Notebook:** notebooks/01_build_wikipedia_graph.ipynb
