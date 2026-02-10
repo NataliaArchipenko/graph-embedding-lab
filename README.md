@@ -1,7 +1,7 @@
 <p align="center">
   <img src="banner.png"
        alt="Graph Embedding Lab Banner"
-       style="max-width:100%; height:160px; object-fit:cover;">
+       style="max-width:100%; object-fit:cover;">
 </p>
 
 # Graph Embedding & Network Analysis
