@@ -1,17 +1,11 @@
-<p align="center">
-  <img src="banner.png"
-       alt="Graph Embedding Lab Banner"
-       style="max-width:100%; height:120px; object-fit:cover;">
-</p>
 
 # Graph Embedding & Network Analysis
-> Exploratory project on graph embeddings using Wikipedia data
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![NetworkX](https://img.shields.io/badge/Graph-NetworkX-3776AB)
 ![Node2Vec](https://img.shields.io/badge/Embedding-Node2Vec-009688)
 ![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange?logo=jupyter)
 ![License](https://img.shields.io/badge/License-MIT-green)
-
+> Exploratory project on graph embeddings using Wikipedia data
 
 ## Kurzbeschreibung
 Dieses Projekt untersucht Graph-Embedding-Methoden wie Node2Vec und DeepWalk
